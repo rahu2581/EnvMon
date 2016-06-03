@@ -1,0 +1,24 @@
+{
+  "name": "envmon",
+  "version": "1.0.0",
+  "description": "IoT Environment Monitoring",
+  "main": "envmon.js",
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.12",
+    "moving-average": "^0.1.1",
+    "node-dht-sensor": "^0.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Temperature",
+    "Humidity",
+    "IoT",
+    "AWS",
+    "DHT11"
+  ],
+  "author": "Rainer Hungershausen",
+  "license": "WTFPL"
+}

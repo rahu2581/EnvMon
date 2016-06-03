@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EnvMon</title>
+<meta charset="UTF-8">
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.3.16.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-1.8.0.min.js"></script>
+<script src="envmon-plot.js"></script>
+</head>
+
+<body>
+<div id="temperature"></div>
+<div id="humidity"></div>
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
+<div id="status">
+</div>
+
+</body>
+</html>
